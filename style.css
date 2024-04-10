@@ -1,0 +1,146 @@
+
+*{
+    padding-left: 76px;
+    padding-right: 76px;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(245,247,253,255);
+}
+/* Barra de navegación Negra */
+.headernegro{
+    padding: 0px;
+    background-color: black;
+    color: white;
+    height: 33px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textoHeaderNegro{
+    padding: 70px;
+}
+
+.fecha{
+    background-color: black;
+    color: white;
+    size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+/* Barra de navegación Azul */
+.headerazul{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #086cac;
+    color: white;
+    height: 55px;
+    font-size: 22px;
+    padding-left: 0;
+
+}
+
+.logo{
+    width: 190px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Cuerpo de la página */
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    aside{
+        flex: 50px;
+        background-color: rgba(245,247,253,255);
+        padding: 10px;
+        padding-top: 120px;
+    }
+
+        .textoVerde{
+            color: rgb(53, 167, 123);
+        }
+
+        .textoNegritas{
+            color: black;
+            font-size: 22px;
+            font-weight: bold;
+        }   
+
+        .textoNoNegritas{
+            color: black;
+            font-weight: lighter;
+        }
+
+        .botonUno{
+            background-color: #086cac;
+            color: white;
+            border-style: none;
+            font-size: 15px;
+            width: 398px;
+            height: 48px;
+            border-radius: 3px;
+        }
+
+        .botonDos{
+            background-color: rgba(245,247,253,255);
+            color: #086cac;
+            border-style: solid;
+            font-size: 15px;
+            width: 398px;
+            height: 48px;
+            border-radius: 3px;
+            border-color: #086cac;
+            border-width: 1px;
+        }
+
+    section{
+        padding: 0;
+        flex: 50px;
+        background-color: rgba(245,247,253,255);
+    }
+
+        .fotoGrande{
+            padding: 0;
+            display: block;
+            width: 513px;
+            height: 396px;
+        }
+
+        .fotosPequeñas{
+            padding: 0px;
+            display: block;
+            width: 513px;
+            border-radius: 10px;
+        }
+
+/* Footer */
+footer{
+    color: grey;
+    padding: 10px;
+    font-size: 12px;
+}
+
+    .footerUno{
+        display: block;
+        color: #086cac;
+        text-align: end;
+    }
+
+    .footerDos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #086cac;
+
+    }
